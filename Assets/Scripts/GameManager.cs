@@ -33,11 +33,11 @@ public class GameManager : MonoBehaviour {
 
 	private float currentTime;
 
-	// setup the game
-	void Start () {
+    // setup the game
+    void Start () {
 
-		// set the current time to the startTime specified
-		currentTime = startTime;
+        // set the current time to the startTime specified
+        currentTime = startTime;
 
 		// get a reference to the GameManager component for use by other scripts
 		if (gm == null) 
